@@ -24,3 +24,7 @@ CORRECT_EMAIL
 Run the [script](run_name_changer.sh).
 
 Review the new Git history for errors.
+
+
+#BASED ON HELP GITHUB ARTICLE
+https://help.github.com/en/articles/changing-author-info
