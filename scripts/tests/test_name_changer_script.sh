@@ -1,23 +1,10 @@
 #!/bin/bash
 
-source git_config_local_script.sh
+. /../../dev_config.sh
 
-for f in "${project_path[@]}";
-    do
-        cd $f
-        pwd
+# code for testing purposes
 
-        echo $test_string_name
-        ${test_string_name}
-        #echo $test_string_email
-    done
-'
-##is already
-##show name and email of reporitory local settings
-##change with script to test credentials
-##show name and email of reporitory local settings
+#take default path
+#download repo
+#run changer
 
-##is empty
-##show name and email of reporitory local settings
-##change with script to test credentials
-##show name and email of reporitory local settings

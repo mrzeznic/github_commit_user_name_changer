@@ -1,4 +1,4 @@
-# git_config_local
+# github_commit_user_name_changer
 
 Script helps to change the name and the email in already pushed commits based on given email adress.
 
@@ -23,8 +23,27 @@ CORRECT_EMAIL
 
 Run the [script](run_name_changer.sh).
 
+```bash
+$ bash run_name_changer.sh
+```
+
 Review the new Git history for errors.
 
+</br>
 
-#BASED ON HELP GITHUB ARTICLE
-https://help.github.com/en/articles/changing-author-info
+---
+
+# BASED ON HELP GITHUB ARTICLE 
+(https://help.github.com/en/articles/changing-author-info)
+
+</br>
+</br>
+</br>
+</br>
+
+---
+---
+TODO: 
+- [ ] save console output to file, create historization file (https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file)
+
+- [ ]

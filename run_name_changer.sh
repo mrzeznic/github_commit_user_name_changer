@@ -2,6 +2,8 @@
 
 . config.sh
 
+#save runner repository path
+runner_path=$(pwd)
 
 echo "Configured values:"
 echo ""
@@ -19,7 +21,19 @@ done
 read -r -p "Are you sure do you want to run name changer for git commits? [y/N] " response
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
 then
-    echo "SCRIPT RUNS"
+    echo "-----------------"
+    echo "Current values:"
+    echo ""
+    . $runner_path/scripts/tests/checker_name_changer.sh
+    echo "-----------------"
+    echo ""
+    echo "---SCRIPT RUNS---"
+    echo ""
+    #. $runner_path/scripts/src/name_changer_script.sh
+    echo "-----------------"
+    echo "Values after change:"
+    echo ""
+    . $runner_path/scripts/tests/checker_name_changer.sh
 else
     echo "NO RUN"
 fi
